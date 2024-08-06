@@ -12,13 +12,14 @@
         <h2>Internship Application Form</h2>
         <form>
             <div class="form-group">
-                <label for="first-name-input" class="form-label invalid-feedback">First Name</label>
+                <label for="first-name-input" class="form-label">First Name</label>
                 <input type="text" class="form-control" id="first-name-input" placeholder="Enter first name" required>
             </div>
-            <div class="form-group">
-                <label for="last-name-input">Last Name</label>
-                <input type="text" class="form-control" id="last-name-input" placeholder="Enter last name" required>
-            </div>
+           <div class="form-group">
+    <label for="last-name-input">Last Name</label>
+    <input type="text" class="form-control" id="last-name-input" placeholder="Enter last name" required>
+    <div class="invalid-feedback">Last name is required.</div>
+</div>
             <div class="form-group">
                 <label for="email-input">Email Address</label>
                 <input type="email" class="form-control" id="email-input" placeholder="Enter email" required>
@@ -32,7 +33,7 @@
                 <input type="text" class="form-control" id="roll-no-input" placeholder="Enter roll number" required>
             </div>
             <div class="form-group">
-               <label for="grad-year-select" class="form-label">Graduation year</label>
+               <label for="grad-year-select" class="form-label">Graduation Year</label>
                 <select class="form-select" id="grad-year-select" required>
 				    <option>2020</option>
 				    <option>2021</option>
